@@ -1,6 +1,7 @@
 package com.axd.stevenmod;
 
-import com.axd.stevenmod.items.Items;
+import com.axd.stevenmod.blocks.ModBlocks;
+import com.axd.stevenmod.items.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -13,6 +14,7 @@ public class StevenMod
     public StevenMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Items.ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
+        ModItems.ITEMS.register(bus);
     }
 }
