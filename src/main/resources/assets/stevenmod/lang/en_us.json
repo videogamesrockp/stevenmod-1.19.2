@@ -1,4 +1,9 @@
 {
   "item.stevenmod.report_card": "Report Card",
-  "block.stevenmod.report_card_block": "Report Card Block"
+  "block.stevenmod.report_card_block": "Report Card Block",
+  "item.stevenmod.report_card_helmet": "Report Card Helmet",
+  "item.stevenmod.report_card_chestplate": "Report Card Chestplate",
+  "item.stevenmod.report_card_leggings": "Report Card Leggings",
+  "item.stevenmod.report_card_boots": "Report Card Boots",
+  "item.stevenmod.grade_reporter": "Grade Reporter"
 }

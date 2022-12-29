@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "stevenmod:report_card"
+    }
+  },
+  "result": {
+    "item": "stevenmod:report_card_block"
+  }
+}
