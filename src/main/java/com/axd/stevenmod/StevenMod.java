@@ -1,6 +1,7 @@
 package com.axd.stevenmod;
 
 import com.axd.stevenmod.blocks.ModBlocks;
+import com.axd.stevenmod.entities.ModEntities;
 import com.axd.stevenmod.items.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,5 +17,6 @@ public class StevenMod
 
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
+        ModEntities.ENTITIES.register(bus);
     }
 }
