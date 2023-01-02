@@ -2,10 +2,12 @@ package com.axd.stevenmod.items;
 
 import com.axd.stevenmod.ModArmorMaterial;
 import com.axd.stevenmod.StevenMod;
+import com.axd.stevenmod.entities.ModEntities;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -28,6 +30,8 @@ public class ModItems {
     public static final RegistryObject<ArmorItem> REPORT_CARD_BOOTS = ITEMS.register("report_card_boots",
             () -> new ArmorItem(ArmorTiers.REPORT_CARD, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
+    public static final RegistryObject<ForgeSpawnEggItem> STEVEN_HE_SPAWN_EGG = ITEMS.register("steven_he_spawn_egg.json",
+            () -> new ForgeSpawnEggItem(ModEntities.STEVEN_HE, 0xFF0000, 0x00FF00, new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(16)));
 
     public static class ArmorTiers {
         public static final ArmorMaterial REPORT_CARD = new ModArmorMaterial(
