@@ -37,12 +37,11 @@ public class ModItems {
         public static final ArmorMaterial REPORT_CARD = new ModArmorMaterial(
                 "report_card",
                 750,
-                new int[] { 20, 30, 40, 10 },
+                new int[]{20, 30, 40, 10},
                 300,
                 SoundEvents.ARMOR_EQUIP_DIAMOND,
                 0.0f,
                 0.0f,
                 () -> Ingredient.of(ModItems.REPORT_CARD.get()));
     }
-
 }
