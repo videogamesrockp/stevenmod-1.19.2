@@ -30,7 +30,7 @@ public class ModItems {
     public static final RegistryObject<ArmorItem> REPORT_CARD_BOOTS = ITEMS.register("report_card_boots",
             () -> new ArmorItem(ArmorTiers.REPORT_CARD, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<ForgeSpawnEggItem> STEVEN_HE_SPAWN_EGG = ITEMS.register("steven_he_spawn_egg.json",
+    public static final RegistryObject<ForgeSpawnEggItem> STEVEN_HE_SPAWN_EGG = ITEMS.register("steven_he_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.STEVEN_HE, 0xFF0000, 0x00FF00, new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(16)));
 
     public static class ArmorTiers {
